@@ -15,9 +15,8 @@ Our company wants to report on employee salaries using multithreading. Given a R
 4. Maximum salary
 
 5. Percentage deviation of each employee's salary from the average salary
+
 ## Development Notes
-
-
 1. This tool is developed using JAVA (spring boot) [boiler plate is used to geenrate basic structure]
 2. The API is called once to retrieve all the data
 3. Each aggregation method (SUM, average, min, max) is calculated in parallel using concurrent & multi-threading concepts
@@ -42,7 +41,6 @@ Our company wants to report on employee salaries using multithreading. Given a R
 
 
 ## How to use
-
 1. Clone the repository to your local machine
 2. Open the project in your preferred IDE
 3. Run the application by running  ``` ./gradlew bootRun    ```
