@@ -20,9 +20,8 @@ Our company wants to report on employee salaries using multithreading. Given a R
 1. This tool is developed using JAVA (spring boot) [boiler plate is used to geenrate basic structure]
 2. The API is called once to retrieve all the data
 3. Each aggregation method (SUM, average, min, max) is calculated in parallel using concurrent & multi-threading concepts
-4. Each employee's deviation is also calculated in parallel and the results are collected in a map (name, deviation)
-5. The process/calculation flow is logged in the console in an asynchronous manner
-6. The final result is stored in a JSON format in the file system in the following format:
+4. Each employee's deviation is also calculated in parallel and the results are collected in a map
+5. The final result is stored in a JSON format in the file system in the following format:
 
 
 ```bash
