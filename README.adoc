@@ -45,6 +45,7 @@ Our company wants to report on employee salaries using multithreading. Given a R
 2. Open the project in your preferred IDE
 3. Run the application by running  ``` ./gradlew bootRun    ```
 4. The final result will be stored in a file named "result.json" in the root directory of the project
+
 ## Dependencies
 - Java 8 or later
 - Gradle
